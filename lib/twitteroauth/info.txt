@@ -1,0 +1,5 @@
+method => GET
+url => https://api.twitter.com/oauth/request_token
+parameters => ["oauth_callback" => "https://mercury.kisocial.io/includes/twitter-handler-oath.php?auth=1"]
+consumer => "Wb7dJ2Gs2Fu3sRCUySUgpAdqx"
+token => "8C985g5ekfYUIdkBzk3LhgKyepMbya2phd7YgrukGjniyC5dLF"

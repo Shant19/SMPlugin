@@ -1,0 +1,46 @@
+.sm-title {
+	font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+}
+
+.sm-header-menu-container {
+	width: 100%;
+	height: 65px;
+}
+
+.sm-header-menu {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px 7px 0;
+}
+
+.sm-header-menu > li {
+	padding: 5px 10px;
+	background: #e5e5e5;
+	color: #555;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	line-height: 1.71428571;
+	margin-bottom: 0; 
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.sm-header-menu > li:hover {
+	background-color: #fff;
+    color: #444;
+}
+
+.sm-menu-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	width: 70%;
+	grid-gap: 10px;
+}
+
+.sm-twitter-credentials {
+	padding-top: 30px;
+}
